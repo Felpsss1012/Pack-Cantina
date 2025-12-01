@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Painel</title>
+    <link rel="shortcut icon" href="../Style/img/icon.png" type="image/x-icon">
+
+    <script src="https://cdn.socket.io/4.8.0/socket.io.min.js" defer></script>
+    <link rel="stylesheet" href="../Style/painel.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div>
+                <h1>Painel</h1>
+                <div class="small muted">Use este painel para concluir pedidos</div>
+            </div>
+            <div class="controls">
+                <div id="serverStatus" class="small muted">Conectando...</div>
+                <button class="btn secondary" id="refreshBtn">Atualizar</button>
+            </div>
+        </header>
+
+        <div class="panel-header">
+            <div class="tabs" role="tablist">
+                <div class="tab active" id="tab-ativos">Ativos</div>
+                <div class="tab" id="tab-historico">Histórico</div>
+                <div class="tab" id="tab-stats">Estatísticas</div>
+            </div>
+
+            <div class="history-actions">
+                <div class="search" style="margin:0">
+                    <input id="filterInput" placeholder="Filtrar por nome, item ou status (ex: concluido)" />
+                    <button class="btn" id="clearFilterBtn">Limpar</button>
+                </div>
+                <button class="csv-btn" id="exportCsvBtn" title="Exportar histórico visível">Exportar CSV</button>
+            </div>
+        </div>
+        
+        <div id="ativosSection">
+            <div id="lista" class="grid" aria-live="polite"></div>
+            <div id="empty" class="empty" style="display:none">Nenhum pedido no momento.</div>
+        </div>
+
+        <div id="historicoSection" style="display:none; margin-top:18px;">
+            <div id="historicoList" class="grid"></div>
+            <div id="emptyHistory" class="empty" style="display:none">Nenhum pedido concluído ainda.</div>
+            <div class="footer-note">Exporta apenas os pedidos visíveis no histórico (após filtros).</div>
+        </div>
+        
+        <div id="statsSection" style="display:none; margin-top:18px;">
+            <div class="stats-container">
+                <div class="stats-card">
+                    <h3>Resumo</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="totalPedidos">0</div>
+                            <div class="stat-label">Pedidos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="totalVendas">R$ 0,00</div>
+                            <div class="stat-label">Vendas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="ticketMedio">R$ 0,00</div>
+                            <div class="stat-label">Ticket Médio</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="totalItens">0</div>
+                            <div class="stat-label">Itens Vendidos</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-card">
+                    <h3>Produtos Mais Vendidos</h3>
+                    <div id="topProdutos" class="stats-list"></div>
+                </div>
+                
+                <div class="stats-card">
+                    <h3>Formas de Pagamento</h3>
+                    <div id="formaPagamento" class="stats-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="detailModal" class="modal" aria-hidden="true">
+        <div class="box">
+            <div class="close" id="detailClose">✕</div>
+            <h3 id="detailTitle">Detalhes do Pedido</h3>
+            <div id="detailContent"></div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast" style="display:none"></div>
+
+    <script src="../Script/painel.js" defer></script>
+</body>
+</html>

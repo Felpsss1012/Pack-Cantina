@@ -1,0 +1,358 @@
+[
+  {
+    "id": 1,
+    "name": "Água com Gás",
+    "price": 2.5,
+    "quantity": 5,
+    "category": "Bebidas"
+  },
+  {
+    "id": 2,
+    "name": "Água Mineral",
+    "price": 2.0,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 3,
+    "name": "Amendoim Mendorato",
+    "price": 1.75,
+    "quantity": 0,
+    "category": "Salgados",
+    "avg_cost": 0.0
+  },
+  {
+    "id": 4,
+    "name": "Bala dura FreeGells (5 por)",
+    "price": 1.0,
+    "quantity": 3,
+    "category": "Doces",
+    "avg_cost": 0.0
+  },
+  {
+    "id": 5,
+    "name": "Bala Yogurte (5 por)",
+    "price": 1.0,
+    "quantity": 10,
+    "category": "Doces",
+    "avg_cost": 0.0
+  },
+  {
+    "id": 6,
+    "name": "Batata Ondulada",
+    "price": 3.5,
+    "quantity": 0,
+    "category": "Salgados"
+  },
+  {
+    "id": 7,
+    "name": "Big Big Chiclete",
+    "price": 0.5,
+    "quantity": 7,
+    "category": "Doces",
+    "avg_cost": 0.0
+  },
+  {
+    "id": 8,
+    "name": "Bolacha Tortuguita (Recheada)",
+    "price": 3.5,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 9,
+    "name": "Bolo de Pote",
+    "price": 8.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 10,
+    "name": "Brigadeiro",
+    "price": 10.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 11,
+    "name": "Chiclete Plutonia",
+    "price": 0.5,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 12,
+    "name": "Chiclete Zone",
+    "price": 0.5,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 13,
+    "name": "Coca Cola 200ml",
+    "price": 3.0,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 14,
+    "name": "Coca Cola 2L",
+    "price": 13.0,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 15,
+    "name": "Cone Trufado",
+    "price": 10.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 16,
+    "name": "Cookies Tortuguita",
+    "price": 3.5,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 17,
+    "name": "Copo da Felicidade",
+    "price": 12.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 18,
+    "name": "Copo Pão de Mel",
+    "price": 10.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 19,
+    "name": "Creme de Avelã",
+    "price": 3.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 20,
+    "name": "Doces",
+    "price": 2.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 21,
+    "name": "Gomets",
+    "price": 1.5,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 22,
+    "name": "Halls",
+    "price": 2.5,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 23,
+    "name": "Lanche Natural",
+    "price": 8.0,
+    "quantity": 0,
+    "category": "Salgados"
+  },
+  {
+    "id": 24,
+    "name": "Ouro Branco Bombom",
+    "price": 2.25,
+    "quantity": 10,
+    "category": "Doces",
+    "avg_cost": 0.0
+  },
+  {
+    "id": 25,
+    "name": "Paçoca",
+    "price": 1.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 26,
+    "name": "Pão de Mel",
+    "price": 8.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 27,
+    "name": "Picolé de Fruta",
+    "price": 3.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 28,
+    "name": "Picolé de Leite",
+    "price": 4.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 29,
+    "name": "Pipoca Vovozinha",
+    "price": 3.5,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 30,
+    "name": "Pirulito Big Big",
+    "price": 1.0,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 31,
+    "name": "Pirulito Blond",
+    "price": 1.0,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 32,
+    "name": "Pirulito Peccin",
+    "price": 1.5,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 33,
+    "name": "Refrigerante 200ml",
+    "price": 2.5,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 34,
+    "name": "Refrigerante 2L",
+    "price": 8.0,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 35,
+    "name": "Salada de Frutas",
+    "price": 9.0,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 36,
+    "name": "Salada de Frutas com Leite Condensado",
+    "price": 11.0,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 37,
+    "name": "Salgadinhos Seleção",
+    "price": 3.0,
+    "quantity": 0,
+    "category": "Salgados"
+  },
+  {
+    "id": 38,
+    "name": "Salgado Fritos/Assados",
+    "price": 7.0,
+    "quantity": 0,
+    "category": "Salgados",
+    "avg_cost": 0.0
+  },
+  {
+    "id": 39,
+    "name": "Snack Waffer Bonobon",
+    "price": 3.5,
+    "quantity": 0,
+    "category": "Salgados"
+  },
+  {
+    "id": 40,
+    "name": "SNIKERS",
+    "price": 4.0,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 41,
+    "name": "Sonho de Valsa - Bombom",
+    "price": 2.25,
+    "quantity": 0,
+    "category": "Doces"
+  },
+  {
+    "id": 42,
+    "name": "Suco Daflora",
+    "price": 3.5,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 43,
+    "name": "Suco Natural",
+    "price": 7.0,
+    "quantity": 0,
+    "category": "Bebidas"
+  },
+  {
+    "id": 44,
+    "name": "Torcida",
+    "price": 3.75,
+    "quantity": 0,
+    "category": "Salgados"
+  },
+  {
+    "id": 45,
+    "name": "Tortinha",
+    "price": 8.0,
+    "quantity": 0,
+    "category": "Salgados"
+  },
+  {
+    "id": 46,
+    "name": "Tortuguita Chocolate",
+    "price": 2.25,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 47,
+    "name": "Trento Bitz",
+    "price": 4.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 48,
+    "name": "Trento Chocolate",
+    "price": 3.25,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 49,
+    "name": "Trident",
+    "price": 3.0,
+    "quantity": 1,
+    "category": "Doces"
+  },
+  {
+    "id": 50,
+    "name": "Trufas",
+    "price": 4.5,
+    "quantity": 1,
+    "category": "Doces"
+  }
+]
