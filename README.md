@@ -152,19 +152,19 @@ Isso permite:
 
 ## Estrutura Básica do Projeto
 /console
-  index.html
-  style.css
-  script.js
+index.html
+style.css
+script.js
 
 /painel
-  index.html
-  style.css
-  script.js
+index.html
+style.css
+script.js
 
 /backend
-  servidor.py
-  controle_estoque.py
-  gerador_planilhas.py
+servidor.py
+controle_estoque.py
+gerador_planilhas.py
 
 /start_console.bat
 /start_painel.bat
